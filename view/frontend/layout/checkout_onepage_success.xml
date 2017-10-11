@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<body>
+    <head>
+        <css src="Sunarc_OrderSuccess::css/order-success.css"/>
+    </head>
+
+    <referenceContainer name="order.success.additional.info">
+        <block class="Sunarc\OrderSuccess\Block\Success"
+               name="sunarc.order.success"
+               template="Sunarc_OrderSuccess::order/success.phtml"
+               >
+        </block>
+    </referenceContainer>
+</body>
